@@ -52,6 +52,11 @@ namespace RAC.Vuur.Validation
             return result;
         }
 
+        private void Foo()
+        {
+            // no operations herer
+        }
+
         private ValidationResult validateValue(object item, ValidationContext context)
         {
             if (item != null)
