@@ -27,6 +27,11 @@ namespace RAC.Vuur.Validation
             Types = types;
         }
 
+        void Foo()
+        {
+            // again another useless piece of code
+        }
+
         public Type[] Types { get; set; }
 
         protected override ValidationResult IsValid(object value, ValidationContext validationContext)
